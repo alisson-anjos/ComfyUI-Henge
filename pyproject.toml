@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-henge"
+description = "Henge nodes for MiniMax H3 video editing: shot loading, 2D/3D color guides and latent masks from SAM 3.1 tracking (scene by scene across camera cuts), H3 guide-latent conditioning with optional CLIP video context, people finder, subject looks, causal sampler, frame refine, H3 latent / NVIDIA RTX upscalers and video save. Used by the Henge studio (github.com/alisson-anjos/Henge)."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "Pillow", "scipy", "opencv-python", "safetensors"]
+
+[project.urls]
+Repository = "https://github.com/alisson-anjos/ComfyUI-Henge"
+Documentation = "https://github.com/alisson-anjos/Henge"
+"Bug Tracker" = "https://github.com/alisson-anjos/Henge/issues"
+
+[tool.comfy]
+PublisherId = "alisson-anjos"
+DisplayName = "ComfyUI-Henge"
+Icon = ""
+includes = []
